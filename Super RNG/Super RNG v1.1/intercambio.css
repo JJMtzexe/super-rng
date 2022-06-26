@@ -1,0 +1,224 @@
+body {
+  background-color: black;
+  text-align: center;
+  margin: 0px;
+
+}
+
+p {
+  color: gray;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 150%;
+  margin-top: 2px;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+h1 {
+  font-family: Helvetica;
+  color: white;
+  font-size: 450%;
+  margin-bottom: 2%;
+}
+
+h2 {
+  color: lightgray;
+  font-family: Arial;
+  font-size: 350%;
+  margin-top: 2%;
+  margin-bottom: 5px;
+}
+
+h4 {
+  color: white;
+  font-family: Helvetica;
+  font-size: 1500%;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+h5 {
+  color: white;
+  font-family: monospace;
+  font-size: 300%;
+  margin-top: 10%;
+  margin-bottom: 50px;
+}
+
+p[id = "perrona"] {
+  font-size: 200%;
+  font-style: normal;
+  margin-bottom: 1%;
+  color: palevioletred;
+}
+
+p[id = "oof"] {
+  font-size: 300%;
+  font-style: normal;
+  margin-top: 3%;
+  margin-bottom: 1%;
+  color: white;
+}
+
+p[id = "intense"] {
+  font-style: normal;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 200%;
+}
+
+label[id = "party_pooper"] {
+  color: maroon;
+  font-size: 120%;
+  font-style: normal;
+  margin: 2% auto;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+input[id = "party_pooper_mode"] {
+  transform: scale(3);
+  color: red;
+  margin: 2% auto;
+}
+
+input[id = "intenso"] {
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial;
+  width: auto;
+  height: 0%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-style: normal;
+  font-size: 100%;
+}
+
+input[id = "random_number"] {
+  color: #323232;
+  background-color: black;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial;
+  width: 20px;
+  height: 0%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-style: normal;
+  font-size: 100%;
+}
+
+input[id = "random_number"]:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+input[id = "intenso"]:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+input[id = "more_less"] {
+  color: gray;
+  background-color: black;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial;
+  width: auto;
+  height: 0%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-style: normal;
+  font-size: 100%;
+}
+
+input[id = "generate_random"] {
+  margin-top: 0%;
+  margin-bottom: 6%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 70px;
+  padding-left: 70px;
+  font-size: 500%;
+  text-align: center;
+  text-align-last: center;
+  font-family: system-ui;
+  font-weight: bold;
+  background-color: black;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 10px;
+  color: crimson;
+  border-color: inherit;
+}
+
+input[id = "xd"] {
+  width: 500px;
+  padding-top: 0%;
+  padding-bottom: 1%;
+  color: black;
+  font-family: Arial;
+  font-size: 700%;
+  margin-bottom: 2%;
+  text-align: center;
+  line-height: 1em;
+  background-color: black;
+  color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 7px;
+  border-top-color: black;
+  border-bottom-color: white;
+  border-right-color: black;
+  border-left-color: black;
+}
+
+input[id = "xd"]:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+input[id = "change_1"] {
+  text-align: center;
+  width: 20%;
+  padding-right: 0%;
+  padding-left: 0%;
+  font-size: 100%;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  border-style: solid;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 5px;
+  border-bottom-color: white;
+}
+
+input[id = "change_2"] {
+  text-align: center;
+  width: 20%;
+  padding-right: 0%;
+  padding-left: 0%;
+  font-size: 100%;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  border-style: solid;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 5px;
+  border-bottom-color: white;
+}
+
+canvas[id = "line_1"] {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
