@@ -7,6 +7,7 @@ let intense = document.querySelector("#intense");
 let gen_button = document.querySelector("#generate_random")
 let h3_space = document.querySelector("#lol");
 let change_sets = document.querySelector("#oof");
+
 var h4_space;
 var random_color;
 var lot_val = 0;
